@@ -43,7 +43,7 @@ public class MainActivity extends Activity
 
         mGame = new TicTacToeGame();
 
-        mBoardButtons = new Button[mGame.GetBoardSize() * mGame.GetBoardSize()];
+        mBoardButtons = new Button[mGame.GetBoardSize()];
         mBoardButtons[0] = (Button) findViewById(R.id.one);
         mBoardButtons[1] = (Button) findViewById(R.id.two);
         mBoardButtons[2] = (Button) findViewById(R.id.three);
