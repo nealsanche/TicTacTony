@@ -1,0 +1,224 @@
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PlayArea"
+    android:paddingTop="15dp"
+    android:gravity="top">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="100dp"
+        android:minWidth="250dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:id="@+id/one"
+            android:layout_column="6"
+            android:maxWidth="150dp"
+            android:maxHeight="150dp"
+            android:longClickable="true"
+            android:minWidth="125dp"
+            android:minHeight="100dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:id="@+id/two"
+            android:layout_column="7"
+            android:maxWidth="150dp"
+            android:maxHeight="250dp"
+            android:longClickable="false"
+            android:minWidth="125dp"
+            android:minHeight="100dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:id="@+id/three"
+            android:layout_column="8"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="100dp"
+            android:minWidth="125dp"
+            android:textSize="70sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="100dp"
+        android:minWidth="50dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:id="@+id/four"
+            android:layout_column="6"
+            android:minWidth="125dp"
+            android:maxWidth="150dp"
+            android:minHeight="100dp"
+            android:maxHeight="150dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            android:id="@+id/five"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="100dp"
+            android:minWidth="125dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:id="@+id/six"
+            android:maxWidth="150dp"
+            android:minWidth="125dp"
+            android:minHeight="100dp"
+            android:textSize="70sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="100dp"
+        android:minWidth="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:id="@+id/seven"
+            android:layout_column="6"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="100dp"
+            android:minWidth="125dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            android:id="@+id/eight"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="100dp"
+            android:minWidth="125dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine"
+            android:id="@+id/nine"
+            android:minWidth="125dp"
+            android:minHeight="100dp"
+            android:maxWidth="150dp"
+            android:maxHeight="150dp"
+            android:textSize="70sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="50dp"
+        android:minHeight="50dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Info"
+            android:layout_column="7"
+            android:text="@string/info"
+            android:textSize="36sp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Information"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="25dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Human"
+            android:layout_column="7"
+            android:text="@string/human"
+            android:singleLine="true"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/count"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="25dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Ties"
+            android:layout_column="7"
+            android:text="@string/ties"
+            android:gravity="center_vertical"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ties_counter"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="25dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Computer"
+            android:layout_column="7"
+            android:text="@string/android"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Comp_Counter"
+            android:inputType="number" />
+    </TableRow>
+
+</TableLayout>
