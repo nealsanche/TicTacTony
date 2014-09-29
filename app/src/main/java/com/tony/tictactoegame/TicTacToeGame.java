@@ -18,7 +18,7 @@ public class TicTacToeGame
     }
 
     //variables
-    private final int mBoardDim = 3;
+    private final int mBoardDim = 9;
     private char[] mBoard;
     private final char mPlayer = 'X';
     private final char mComp = 'O';
@@ -139,7 +139,7 @@ public class TicTacToeGame
     {
 
         //check winner horizontally
-        for(int i = 0;i < 6; i+= 3)
+        for(int i = 0;i < mBoardDim; i+= 3)
         {
             if(mBoard[i] == mPlayer &&  mBoard[i+1] == mPlayer && mBoard[i+2] == mPlayer)
                 return TypeOfWinner.PlayerWins;
